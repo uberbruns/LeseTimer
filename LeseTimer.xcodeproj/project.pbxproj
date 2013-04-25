@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6A31FA17292F3600EC29C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6A31F917292F3600EC29C2 /* UIKit.framework */; };
+		2A6A31FC17292F3600EC29C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6A31FB17292F3600EC29C2 /* Foundation.framework */; };
+		2A6A31FE17292F3600EC29C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6A31FD17292F3600EC29C2 /* CoreGraphics.framework */; };
+		2A6A320417292F3600EC29C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A320217292F3600EC29C2 /* InfoPlist.strings */; };
+		2A6A320617292F3600EC29C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A320517292F3600EC29C2 /* main.m */; };
+		2A6A320A17292F3600EC29C2 /* UBRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A320917292F3600EC29C2 /* UBRAppDelegate.m */; };
+		2A6A320C17292F3600EC29C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A320B17292F3600EC29C2 /* Default.png */; };
+		2A6A320E17292F3600EC29C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A320D17292F3600EC29C2 /* Default@2x.png */; };
+		2A6A321017292F3600EC29C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A320F17292F3600EC29C2 /* Default-568h@2x.png */; };
+		2A6A321317292F3600EC29C2 /* UBRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A321217292F3600EC29C2 /* UBRViewController.m */; };
+		2A6A321617292F3600EC29C2 /* UBRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A321417292F3600EC29C2 /* UBRViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A6A31F617292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeseTimer.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6A31F917292F3600EC29C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A6A31FB17292F3600EC29C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A6A31FD17292F3600EC29C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A6A320117292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeseTimer.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		2A6A320317292F3600EC29C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A6A320517292F3600EC29C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A6A320717292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeseTimer.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		2A6A320817292F3600EC29C2 /* UBRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UBRAppDelegate.h; sourceTree = "<group>"; };
+		2A6A320917292F3600EC29C2 /* UBRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBRAppDelegate.m; sourceTree = "<group>"; };
+		2A6A320B17292F3600EC29C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2A6A320D17292F3600EC29C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2A6A320F17292F3600EC29C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2A6A321117292F3600EC29C2 /* UBRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UBRViewController.h; sourceTree = "<group>"; };
+		2A6A321217292F3600EC29C2 /* UBRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBRViewController.m; sourceTree = "<group>"; };
+		2A6A321517292F3600EC29C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UBRViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A6A31F317292F3600EC29C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6A31FA17292F3600EC29C2 /* UIKit.framework in Frameworks */,
+				2A6A31FC17292F3600EC29C2 /* Foundation.framework in Frameworks */,
+				2A6A31FE17292F3600EC29C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6A31ED17292F3600EC29C2 = {
+			isa = PBXGroup;
+			children = (
+				2A6A31FF17292F3600EC29C2 /* lesetimer */,
+				2A6A31F817292F3600EC29C2 /* Frameworks */,
+				2A6A31F717292F3600EC29C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A6A31F717292F3600EC29C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A31F617292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A6A31F817292F3600EC29C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A31F917292F3600EC29C2 /* UIKit.framework */,
+				2A6A31FB17292F3600EC29C2 /* Foundation.framework */,
+				2A6A31FD17292F3600EC29C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6A31FF17292F3600EC29C2 /* lesetimer */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A320817292F3600EC29C2 /* UBRAppDelegate.h */,
+				2A6A320917292F3600EC29C2 /* UBRAppDelegate.m */,
+				2A6A321117292F3600EC29C2 /* UBRViewController.h */,
+				2A6A321217292F3600EC29C2 /* UBRViewController.m */,
+				2A6A321417292F3600EC29C2 /* UBRViewController.xib */,
+				2A6A320017292F3600EC29C2 /* Supporting Files */,
+			);
+			path = lesetimer;
+			sourceTree = "<group>";
+		};
+		2A6A320017292F3600EC29C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A320117292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename-Info.plist */,
+				2A6A320217292F3600EC29C2 /* InfoPlist.strings */,
+				2A6A320517292F3600EC29C2 /* main.m */,
+				2A6A320717292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename-Prefix.pch */,
+				2A6A320B17292F3600EC29C2 /* Default.png */,
+				2A6A320D17292F3600EC29C2 /* Default@2x.png */,
+				2A6A320F17292F3600EC29C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A6A31F517292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6A321917292F3600EC29C2 /* Build configuration list for PBXNativeTarget "LeseTimer.temp_caseinsensitive_rename" */;
+			buildPhases = (
+				2A6A31F217292F3600EC29C2 /* Sources */,
+				2A6A31F317292F3600EC29C2 /* Frameworks */,
+				2A6A31F417292F3600EC29C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeseTimer.temp_caseinsensitive_rename;
+			productName = lesetimer;
+			productReference = 2A6A31F617292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A6A31EE17292F3600EC29C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UBR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Karsten Bruns";
+			};
+			buildConfigurationList = 2A6A31F117292F3600EC29C2 /* Build configuration list for PBXProject "LeseTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A6A31ED17292F3600EC29C2;
+			productRefGroup = 2A6A31F717292F3600EC29C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A6A31F517292F3600EC29C2 /* LeseTimer.temp_caseinsensitive_rename */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A6A31F417292F3600EC29C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6A320417292F3600EC29C2 /* InfoPlist.strings in Resources */,
+				2A6A320C17292F3600EC29C2 /* Default.png in Resources */,
+				2A6A320E17292F3600EC29C2 /* Default@2x.png in Resources */,
+				2A6A321017292F3600EC29C2 /* Default-568h@2x.png in Resources */,
+				2A6A321617292F3600EC29C2 /* UBRViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A6A31F217292F3600EC29C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6A320617292F3600EC29C2 /* main.m in Sources */,
+				2A6A320A17292F3600EC29C2 /* UBRAppDelegate.m in Sources */,
+				2A6A321317292F3600EC29C2 /* UBRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A6A320217292F3600EC29C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6A320317292F3600EC29C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A6A321417292F3600EC29C2 /* UBRViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6A321517292F3600EC29C2 /* en */,
+			);
+			name = UBRViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A6A321717292F3600EC29C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A6A321817292F3600EC29C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A6A321A17292F3600EC29C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lesetimer/LeseTimer.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "lesetimer/LeseTimer.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = LeseTimer.temp_caseinsensitive_rename;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A6A321B17292F3600EC29C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lesetimer/LeseTimer.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "lesetimer/LeseTimer.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = LeseTimer.temp_caseinsensitive_rename;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A6A31F117292F3600EC29C2 /* Build configuration list for PBXProject "LeseTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6A321717292F3600EC29C2 /* Debug */,
+				2A6A321817292F3600EC29C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6A321917292F3600EC29C2 /* Build configuration list for PBXNativeTarget "LeseTimer.temp_caseinsensitive_rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6A321A17292F3600EC29C2 /* Debug */,
+				2A6A321B17292F3600EC29C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A6A31EE17292F3600EC29C2 /* Project object */;
+}
